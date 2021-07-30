@@ -62,11 +62,8 @@ box7 = new Box(800,100,70,70)
 function draw(){
     background(backgroundImage);
     Engine.update(engine);
-    fill("orange")
-    textSize(30)
-    text("Drag The Mouse To Move Superman And Kill The Bad Monster!!",10,30)
+ 
 image(sun,1200,10,100,100)
-//sound.loop()
 
     ground.display();
     
