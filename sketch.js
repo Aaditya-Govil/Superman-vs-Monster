@@ -100,13 +100,8 @@ image(sun,1200,10,100,100)
     superman.display();
     
     string.display();
-    
-   
-  
-    
 }
 
 function mouseDragged(){
     Matter.Body.setPosition(superman.body,{x:mouseX,y:mouseY})
 }
-
